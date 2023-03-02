@@ -7,6 +7,6 @@ import (
 )
 
 func ApiThatCallsModuleCApiThatCallsModuleDApi() {
-	fmt.Println("I am an API of Module B in pkgmodb3 that calls an API of Module C that calls an API of Module D")
+	fmt.Println("I am an API of Module B in pkgmodb3 that calls an API of Module C that calls an API of Module D ")
 	pkgmodc.ApiThatCallsModuleDApi()
 }

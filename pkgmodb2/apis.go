@@ -7,6 +7,6 @@ import (
 )
 
 func ApiThatCallsModuleCApiThatCallRemainsInteral() {
-	fmt.Println("I am an API of Module B in pkgmodb2 that calls an API of Module C that remains internal to Module C")
+	fmt.Println("I am an API of Module B in pkgmodb2 that calls an API of Module C that remains internal to Module C ")
 	pkgmodc.ApiThatCallsInternalApi()
 }
